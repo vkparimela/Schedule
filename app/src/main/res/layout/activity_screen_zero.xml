@@ -8,62 +8,68 @@
 
     <TableLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
 
         <TableRow>
 
             <ImageView
                 android:id="@+id/sil"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:layout_margin="10dp"
                 android:src="@drawable/ic_silent" />
 
             <ImageView
                 android:id="@+id/air"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:layout_margin="10dp"
                 android:src="@drawable/ic_airplane" />
         </TableRow>
+
         <TableRow>
 
             <ImageView
                 android:id="@+id/dnd"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:layout_margin="10dp"
                 android:src="@drawable/ic_dnd" />
 
             <ImageView
                 android:id="@+id/wifi"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:layout_margin="10dp"
                 android:src="@drawable/ic_wifi" />
         </TableRow>
+
         <TableRow>
 
             <ImageView
                 android:id="@+id/md"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:layout_margin="10dp"
+                android:layout_weight="1"
                 android:src="@drawable/ic_md" />
 
             <ImageView
                 android:id="@+id/ps"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:layout_margin="10dp"
-                android:src="@drawable/ic_ps" />
+                android:layout_weight="1"
+                android:src="@drawable/ic_battery" />
 
             <ImageView
                 android:id="@+id/loc"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:layout_margin="10dp"
-                android:src="@drawable/ic_loc" />
+                android:layout_weight="1"
+                android:src="@drawable/ic_map" />
         </TableRow>
 
 
